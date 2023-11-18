@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(16, 71, 79)(0, 225, 255);
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.formulario {
+    background-image: linear-gradient(to right, #012E40, #024959);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    color: white;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+
+.form input {
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 6px;
+    padding: 10px;
+    outline: #3CA6A6;
+
+}
+
+.form input[type=submit] {
+    margin-top: 70px;
+    width: 50%;
+    background-color: #086771;
+    color: white;
+    transition: 0.6s;
+}
+
+.form input[type=submit]:hover {
+    background-color: #3CA6A6;
+}
+
+.form input[type=submit]:checked {
+    background-color: #3CA6A6;
+}
+
+.form ::-webkit-input-placeholder {
+    color: #012E40;
+    font-weight: 500;
+
+}
+
+.form input:focus {
+    background-color: rgb(234, 231, 231);
+    border: #3CA6A6;
+}
+
+.img-ao-lado {
+    background-color: rgb(200, 192, 192);
+    padding: 30px;
+    width: 100%;
+    /* height: 100vh; */
+
+
+}
+
+.img-ao-lado img {
+    height: 80%;
+    width: 80%;
+}
+
+footer {
+    padding: 50px;
+    background-color: rgba(17, 17, 17, 0.827);
+    color: white;
+}
+
+.resultado {
+    border-radius: 5px;
+    margin-top: 70px;
+    padding: 30px;
+    transition: 1s;
+}
