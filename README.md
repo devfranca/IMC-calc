@@ -1,2 +1,2 @@
 # IMC-calc
- calculadora de imc
+ calculadora de imc (nao responsivo).
